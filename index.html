@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Please complete the form</h1>
+        <p>Thank you for taking the time to help us</p>
+
+        <form>
+            <label>Name</label>
+            <input type="text" 
+            placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email"
+            placeholder="Enter your email" required>
+
+            <label>Age</label>
+            <input type="number"
+            placeholder="Age"
+            min="18">
+
+            <p>Which option best describes your current role?</p>
+            <select>
+                <option>Student</option>
+                <option>Full Time</option>
+                <option>Other</option>
+            </select>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio">
+            <label>Definitely</label>
+
+            <input type="radio">
+            <label>Maybe</label>
+
+            <input type="radio">
+            <label>Not sure</label>
+
+            <label>Pick a date</label>
+            <input type="date"
+            min="2021-01-01"
+            max="2025-01-01">
+
+            <p>What is your favourite language</p>
+
+            <input type="checkbox">
+            <label>HTML</label>
+
+            <input type="checkbox">
+            <label>CSS</label>
+
+            <input type="checkbox">
+            <label>JavaScript</label>
+
+            <p>Comments</p>
+            <textarea placeholder="Enter your comment here"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
