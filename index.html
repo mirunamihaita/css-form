@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>Please complete the form</h1>
-        <p>Thank you for taking the time to help us</p>
+        <p class="italic subtitle">Thank you for taking the time to help us</p>
 
         <form>
             <label>Name</label>
@@ -23,7 +24,8 @@
             <label>Age</label>
             <input type="number"
             placeholder="Age"
-            min="18">
+            min="18"
+            max="80">
 
             <p>Which option best describes your current role?</p>
             <select>
@@ -33,14 +35,16 @@
             </select>
 
             <p>Would you recommend freeCodeCamp to a friend?</p>
-            <input type="radio">
-            <label>Definitely</label>
+            <div class="radio-container">
+                <input type="radio">
+                <label>Definitely</label>
 
-            <input type="radio">
-            <label>Maybe</label>
+                <input type="radio">
+                <label>Maybe</label>
 
-            <input type="radio">
-            <label>Not sure</label>
+                <input type="radio">
+                <label>Not sure</label>
+            </div>
 
             <label>Pick a date</label>
             <input type="date"
@@ -59,7 +63,8 @@
             <label>JavaScript</label>
 
             <p>Comments</p>
-            <textarea placeholder="Enter your comment here"></textarea>
+            <textarea placeholder="Enter your comment here" 
+            rows="10" cols="20"></textarea>
 
             <input type="submit" value="Submit">
         </form>
