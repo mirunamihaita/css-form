@@ -1,0 +1,29 @@
+div{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    min-height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.container{
+    padding: 20px;
+    background-color: rgb(187, 245, 226);
+}
+
+.inline{
+    display: inline;
+}
+
+.inline div{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
