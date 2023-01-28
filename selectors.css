@@ -1,3 +1,18 @@
+/* targetare universala: selectorul * targeteaza toate
+elementele din pagina */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* targetare universala in interiorul unui element:
+denumire-element * pentru targetarea tuturor elementelor
+din interiorul altui element */
+
+div * {
+    background-color: black;
+}
+
 /* targetare dupa tag-ul de html: denumiretaghtml{} */
 a{
     background-color: red;
@@ -10,7 +25,7 @@ p{
 
 div{
     background-color: yellow;
-    padding: 5px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
